@@ -22,6 +22,7 @@ volumes:
     mount: /appz/home/airflow
     name: data
     size: 10Gi
+    mode: ReadWriteMany
     matchLabels: false
     
 properties:
