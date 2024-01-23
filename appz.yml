@@ -13,7 +13,7 @@ deploy:
     context: mpmathew/DEV
     replicas: 1
     type: statefulset
-    ingress: none
+    ingress: nodeport
     port:
     - 8080
     
